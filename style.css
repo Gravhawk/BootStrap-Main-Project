@@ -1,0 +1,644 @@
+body
+{
+overflow-x: hidden;
+margin: -1px;
+}
+.icon-1
+{
+margin-top: 5%;
+margin-left: 155px;
+margin-right: -189px;
+margin-bottom: 5%;
+font-size: 60px;
+color: #2f89fc;
+}
+.icon-2
+{
+margin-top: 50px;
+margin-left: 50px;
+border-radius: 50px;
+width: 80px;
+height: 80px;
+background: #2f89fc;
+}
+h2
+{
+font-size: 30px;
+font-weight: 400;
+margin-bottom: 1rem;
+}
+.subheading
+{
+font-size: 14px;
+font-size: 400;
+display: block;
+margin-bottom: 20px;
+}
+/*  Navigation Bar */
+.navbar
+{
+background-color: white;
+/* box-shadow: 1px 1px 5px #999999; */
+position: fixed;
+width: 100%;
+z-index: 1;
+}
+.nav-item
+{
+padding-left: 20px;
+}
+.nav-btn
+{
+border-radius: 50px;
+}
+#js-navbar
+{
+overflow: hidden;
+/* background-color: #343a40; */
+background: 0 0;
+padding: 20px 0px;
+transition: 0.4s;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 99;
+}
+#js-navbar a
+{
+float: left;
+color: black;
+text-align: center;
+padding: 12px;
+text-decoration: none;
+font-size: 18px;
+line-height: 25px;
+border-radius: 4px;
+}
+#js-navbar #logo
+{
+font-size: 35px;
+font-weight: bold;
+transition: 0.4s;
+}
+/* 1st Container Portfolio with Images*/
+.Para-1
+{
+margin-left: 80px;
+margin-top: 0%;
+padding-top: 8%;
+padding-bottom: 8%;
+}
+.Para-1-head
+{
+font-size: 32px;
+color: #2f89fc;
+line-height: 1.2;
+font-weight: 400;
+margin-top: 5rem;
+margin-bottom: 1rem;
+margin-left: 50px;
+}
+#wordtype
+{
+font-size: 32px;
+color: #2f89fc;
+line-height: 1.2;
+font-weight: 400;
+text-align: center;
+padding-top:1em;
+}
+.Para-1-subtext
+{
+margin-left: 50px;
+line-height: 1.5;
+font-weight: 300;
+color: rgba(0,0,0,.7);
+}
+.btn-1
+{
+margin-left:40px;
+margin-top:20px ;
+border-radius: 30px;
+padding-bottom: 1rem;
+padding-top: 1rem;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+.btn-1:hover
+{
+background-color: white;
+color: #2f89fc;
+}
+#fade_img
+{
+margin-top: -100px;
+margin-left: -100px;
+position: absolute;
+}
+.top {
+animation-name: fade;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 3s;
+animation-direction: alternate;
+}
+@keyframes fade {
+0% {
+opacity: 1;
+}
+25% {
+opacity: 1;
+}
+75% {
+opacity: 0;
+}
+100% {
+opacity: 0;
+}
+}
+/*  2nd Container with ONLY TEXT */
+.Para-2
+{
+background: linear-gradient(135deg,#2f89fc 0%,#55fbc2 100%);
+position: relative;
+padding: 3rem;
+color: #fff;
+font-size: 20px;
+z-index: -1;
+}
+.Para-2-subtext
+{
+margin-left: 80px;
+}
+/* 3rd Container Our Service Keeps you Happy with 3 box  */
+.serivce-heading
+{
+font-size: 20px;
+}
+/* 4th Container with Our service keeps you happy  */
+.image-2
+{
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+}
+.Head-3
+{
+margin-left:50px;
+margin-top:50px;
+}
+.Logo-Branding
+{
+margin-top: -82px;
+margin-left: 153px;
+}
+.Logo-Branding-head
+{
+font-size: 20px;
+}
+.Logo-Branding-Para
+{
+font-family: open sans,Arial,sans-serif;
+background: #fff;
+font-size: 16px;
+line-height: 1.8;
+font-weight: 300;
+color: gray;
+}
+/* 4th Container Numbers */
+.Number-text
+{
+font-family: open sans,Arial,sans-serif;
+margin-left: 98px;
+}
+.number-1
+{
+font-size: 40px;
+font-weight: 100;
+color: white;
+}
+.count
+{
+/* 	line-height: 100px;
+color:blue;
+margin-left:30px;
+font-size:25px; */
+}
+.Sub-text
+{
+margin-left: -20px;
+line-height: 1.8;
+font-weight: 100;
+color: #fff;
+font-family: open sans,Arial,sans-serif;
+}
+.Sub-text-1
+{
+margin-left: -9px;
+line-height: 1.8;
+font-weight: 100;
+font-family: open sans,Arial,sans-serif;
+color: #fff;
+}
+/* 5th Container with 6 Images */
+.O-head
+{
+margin-top: 5rem;
+}
+.I-head
+{
+margin-top: 7rem;
+}
+.Sub-Image
+{
+max-width: 110%;
+padding: 0px 15px;
+margin-left: -22px;
+height: 400px;
+}
+.Sub-Image-1
+{
+width: 102%;
+margin-left: -8px;
+height: 400px;
+}
+/* Hover on 6 Images */
+.overlay
+{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0px;
+right: 0;
+max-width: 100%;
+height: 400px;
+margin-left: 8px;
+margin-right: 10px;
+margin-left:;
+opacity: 0;
+transition: .3s ease;
+background-color:#2f89fc;
+}
+.overlay:hover
+{
+opacity: 1;
+cursor: pointer;
+}
+.Sub-Hover-Text-1
+{
+color: white;
+font-size: 20px;
+position: absolute;
+top:48%;
+left: 50%;
+font-size: 16px;
+line-height: 1.8;
+font-weight: 300;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+.Sub-Hover-Text-2
+{
+color: white;
+font-size: 22px;
+color: #fff;
+position: absolute;
+top:55% ;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+/* 6th Container Best Pricing 4 boxes */
+.inline-block
+{
+max-width: 25%;
+}
+.box-4
+{
+margin-bottom: 0px;
+padding: 0px;
+-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.03);
+-moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.03);
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.03);
+background: #fff;
+text-align: center;
+}
+.box-heading
+{
+font-size: 14px;
+line-height: 1;
+margin: 0;
+padding: 0;
+margin-bottom: 10px;
+display: inline-block;
+text-transform: uppercase;
+}
+sup
+{
+font-size: 20px;
+top: -.7em;
+color: #2f89fc;
+}
+.number
+{
+font-size: 40px;
+font-weight: 500;
+color: #2f89fc;
+}
+.excerpt
+{
+margin-top: 20px;
+color: gray;
+}
+.btn-2
+{
+margin-top:20px ;
+border-radius: 30px;
+padding-bottom: 1rem;
+padding-top: 1rem;
+padding-left: .5rem;
+padding-right: .5rem;
+}
+.sub-heading
+{
+font-size: 16px;
+margin-bottom: 1.5rem;
+line-height: 1.5;
+color: #000;
+font-weight: 400;
+}
+.pricing-text
+{
+list-style: none;
+line-height: 1.8;
+}
+.pricing-text li
+{
+margin-right: 55px;
+margin-bottom: 15px;
+font-size: 16px;
+font-weight: 300;
+}
+/* <!-- 7th Container Para & form --> */
+.bg-col
+{
+background: #2f89fc;
+}
+.para-head
+{
+padding-left: 80px;
+}
+.para-para
+{
+padding-left: 80px;
+}
+.form-control
+{
+width: 100%;
+padding: 35px 10px;
+margin: 10px 0;
+box-sizing: border-box;
+border-top: none;
+border-left:none;
+border-right:none;
+}
+/* 8th Testimony Commnets */
+.Testimony-img
+{
+width: 120px;
+border-radius: 50%;
+border: 4px solid #fff;
+float: left;
+margin-left: 376px;
+margin-top: -30px;
+}
+.test-h3
+{
+font-size: 20px;
+font-weight: bold;
+margin-top: -50px;
+margin-bottom: 50px;
+margin-left: 376px;
+color: #111;
+}
+.test-h4
+{
+font-weight: 400;
+font-size: 14px;
+color: #999;
+margin-top: -40px;
+margin-bottom: 50px;
+margin-left: 390px;
+}
+.test-para
+{
+text-align: center;
+margin-top: 100px;
+padding-bottom: 100px;
+}
+.carousel-indicators li
+{
+background-color: black;
+}
+.carousel-inner
+{
+padding-top: 30px;
+}
+/*9th Container subscibe */
+.row-bg
+{
+padding: 4rem ;
+background: linear-gradient(135deg,#2f89fc 0%,#55fbc2 100%);
+}
+.submit
+{
+color: #fff;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+-ms-border-radius: 0;
+border-radius: 0;
+font-size: 16px;
+}
+.subscribe-form .form-group input
+{
+background: 0 0;
+border: 1px solid rgba(255,255,255,.7);
+color: rgba(255,255,255,.7);
+font-size: 16px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+-ms-border-radius: 30px;
+border-radius: 30px;
+}
+/* <!-- 10th Container Lasted blog -->*/
+.blog-entry
+{
+margin-bottom: 30px;
+}
+.blog-heading
+{
+font-size: 20px;
+margin-bottom: 16px;
+font-weight: 400;
+}
+/*  11th Container Footer */
+.bg-footer
+{
+font-family: open sans,Arial,sans-serif;
+font-size: 16px;
+background: #233142;
+padding: 6em 0;
+line-height: 1.8;
+font-weight: 300;
+color: gray;
+}
+.col-text
+{
+width: 100%;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 5px;
+}
+.footer-heading
+{
+color: #fff;
+margin-bottom: 40px;
+font-size: 18px;
+font-weight: 400;
+}
+.footer-para
+{
+font-size: 15px;
+font-weight: 300;
+}
+.footer-tag
+{
+color: rgba(255,255,255,.5);
+font-size: 14px;
+}
+.icon-bar
+{
+width: 100%;
+background-color:#233142;
+overflow: auto;
+}
+.icon-bar a
+{
+float: left;
+width: 26%;
+height: 50%;
+text-align:;
+padding-left: 1px;
+color: white;
+font-size: 30px;
+}
+/* Media Query */
+@media screen and (min-width:300px) and (max-width:900px)
+{
+.nav-btn
+{
+margin-left: -11px;
+}
+/* 1st Container Portfolio with Images*/
+.Para-1
+{
+margin-left: 0px;
+}
+.Para-1-head
+{
+font-size: 20px;
+margin-left: 0px;
+}
+.Para-1-subtext
+{
+margin-left: 0px;
+}
+.btn-1
+{
+margin-right: -8px;
+margin-top:10px ;
+margin-left: -5px;
+border-radius: 30px;
+padding-bottom: .5rem;
+padding-top: .5rem;
+padding-left: .5rem;
+padding-right: .5rem;
+}
+/*  2nd Container with ONLY TEXT */
+.Para-2-subtext
+{
+margin-left: -30px;
+font-size: 13px;
+}
+/* 3rd Container Our Service Keeps you Happy with 3 box  */
+.icon-1
+{
+margin-left: -50px;
+margin-right: ;
+margin-top: 50px;
+}
+.serivce-heading
+{
+margin-left: 100px;
+margin-top: -50px;
+margin-right: 0px;
+text-align: center;
+margin
+}
+.serivce-para
+{
+margin-left: 100px;
+}
+/* 4th Container Numbers */
+.Number-text
+{
+margin-left: 150px;
+}
+/* 5th Container with 6 Images */
+.I-head
+{
+padding: 10px;
+}
+/* 7th Container Para & form */
+.para-head
+{
+margin-left: -50px;
+}
+.para-para
+{
+margin-left: -50px;
+}
+/* 8th Testimony Commnets */
+.Testimony-img
+{
+margin-left: 170px;
+}
+.test-h3
+{
+margin-left: 170px;
+}
+.test-h4
+{
+margin-left: 170px;
+}
+/*  10th Container Lasted blog */
+.blog-entry
+{
+text-align: center;
+}
+/* 11th Container Footer */
+.icon-bar
+{
+width: 50%;
+}
+.icon-bar a
+{
+padding-bottom: 10px;
+}
+}
